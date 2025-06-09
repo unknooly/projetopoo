@@ -5,7 +5,7 @@ class NewsController{
     private service:NewsService
 
     constructor(){
-        this.service=new NewsService
+        this.service=new NewsService()
     }
 
     async get(request:Request,response:Response){
