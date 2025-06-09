@@ -1,7 +1,7 @@
 {
   "name": "projetopoo",
   "version": "1.0.0",
-  "description": "",
+  "description": "https://app.docker.com/\r https://www.mongodb.com/try/download/community\r https://www.mongodb.com/try/download/compass\r https://www.mongodb.com/docs/manual/tutorial/install-mongodb-community-with-docker/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,5 +19,13 @@
   "devDependencies": {
     "@types/express": "^5.0.2",
     "@types/mongoose": "^5.11.97"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unknooly/projetopoo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unknooly/projetopoo/issues"
+  },
+  "homepage": "https://github.com/unknooly/projetopoo#readme"
 }

@@ -1,0 +1,36 @@
+[
+  {"collectionName":"news"},
+  {
+    "titulo": "A Nova Era da Tecnologia",
+    "chapeu": "Inovação",
+    "texto": "Estamos entrando em uma nova era onde a inteligência artificial e a automação estão transformando todos os setores da sociedade. Do setor de saúde à educação, passando pela indústria e pelo comércio, vemos uma revolução silenciosa moldando a forma como vivemos, trabalhamos e nos relacionamos. As máquinas estão aprendendo com dados, otimizando processos e, em muitos casos, tomando decisões autônomas. É essencial que governos, empresas e cidadãos se preparem para essa nova realidade, investindo em capacitação, infraestrutura e políticas públicas que garantam uma transição justa e inclusiva.",
+    "autor": "João Silva",
+    "imagem": "https://example.com/imagens/tecnologia.jpg",
+    "dataPublicacao": "2025-06-01T10:00:00Z",
+    "tags": "tecnologia, inovação, IA",
+    "link": "https://example.com/artigos/nova-era-tecnologia",
+    "ativo": true
+  },
+  {
+    "titulo": "Mudanças Climáticas e o Futuro",
+    "chapeu": "Meio Ambiente",
+    "texto": "As mudanças climáticas representam o maior desafio da nossa geração. Temperaturas recordes, eventos climáticos extremos e a perda de biodiversidade são apenas alguns dos sinais alarmantes de um planeta em crise. Para enfrentar esse problema, é necessário um esforço coordenado entre nações, empresas e cidadãos. A transição para fontes de energia renováveis, o reflorestamento e a mudança nos padrões de consumo são medidas urgentes. Além disso, é fundamental promover a educação ambiental para que as futuras gerações compreendam a importância de preservar os recursos naturais. O tempo para agir é agora.",
+    "autor": "Maria Oliveira",
+    "imagem": "https://example.com/imagens/clima.jpg",
+    "dataPublicacao": "2025-05-28T08:30:00Z",
+    "tags": "clima, sustentabilidade, meio ambiente",
+    "link": "https://example.com/artigos/mudancas-climaticas",
+    "ativo": true
+  },
+  {
+    "titulo": "O Impacto da Leitura na Formação Pessoal",
+    "chapeu": "Cultura",
+    "texto": "A leitura é uma das ferramentas mais poderosas para o desenvolvimento humano. Desde a infância, os livros despertam a imaginação, estimulam o pensamento crítico e promovem a empatia. Estudos mostram que pessoas que leem com frequência possuem maior capacidade de concentração, vocabulário mais amplo e uma compreensão mais profunda da complexidade humana. Em tempos de excesso de informação e superficialidade digital, cultivar o hábito da leitura se torna um ato de resistência cultural. Incentivar bibliotecas, clubes de leitura e o acesso a livros de qualidade deve ser uma prioridade para todos os que acreditam em uma sociedade mais justa e esclarecida.",
+    "autor": "Carlos Mendes",
+    "imagem": "https://example.com/imagens/leitura.jpg",
+    "dataPublicacao": "2025-05-15T12:00:00Z",
+    "tags": "leitura, cultura, educação",
+    "link": "https://example.com/artigos/impacto-leitura",
+    "ativo": true
+  }
+]
