@@ -9,6 +9,6 @@ export const NewsSchema=new mongoose.Schema({
     dataPublicacao:{type:Date},
     tags:{type:String},
     link:{type:String},
-    ativo:{type:Boolean},
+    ativo:{type:Boolean}
 })
 

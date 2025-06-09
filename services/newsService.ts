@@ -3,8 +3,8 @@ import { Result } from "../infra/result";
 import { NewsRepository } from "../repository/newsRepository";
 
 export class NewsService implements INewsService{
-    async get(id:string){
-        let result=await NewsRepository.findById(id)
+    async get(_id:string){
+        let result=await NewsRepository.findById(_id)
         return result
     }
 

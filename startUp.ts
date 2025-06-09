@@ -1,14 +1,14 @@
 import express, { Application, Request, Response } from "express"
-import Database from "./infra/db"
+import database from "./infra/db"
 import NewsController from "./controller/newsController"
 
 class StartUp{
     public app:Application
-    private db:Database=new Database()
+    private _db:database=new database()
 
     constructor(){
         this.app=express()
-        this.db.createConnection()
+        this._db.createConnection()
         this.routes()
     }
 
