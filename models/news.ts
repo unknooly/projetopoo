@@ -1,4 +1,10 @@
 import mongoose from "mongoose";
+import { Core } from "./core"
+
+export class News extends Core{
+    chapeu:String
+    autor:String
+}
 
 export const NewsSchema=new mongoose.Schema({
     titulo:{type:String},
