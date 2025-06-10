@@ -19,3 +19,4 @@ export class GaleriaService implements IGaleriaService{
         return result
     }
 }
+
