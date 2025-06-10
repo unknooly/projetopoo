@@ -1,0 +1,55 @@
+[
+  {
+    "titulo": "Viagem à Patagônia",
+    "texto": "Uma galeria com fotos incríveis da Patagônia.",
+    "imagem": "patagonia_capa.jpg",
+    "dataPublicacao": "2025-05-15T08:00:00Z",
+    "tags": "viagem, natureza, patagonia",
+    "link": "https://exemplo.com/galeria/patagonia",
+    "ativo": true,
+    "fotos": [
+      {
+        "thumb": "fotos/patagonia/thumbs/montanhas.jpg",
+        "thumbnail": "fotos/patagonia/thumbnails/montanhas.jpg",
+        "credito": "João Silva",
+        "legenda": "Montanhas cobertas de neve na Patagônia"
+      },
+      {
+        "thumb": "fotos/patagonia/thumbs/lago.jpg",
+        "thumbnail": "fotos/patagonia/thumbnails/lago.jpg",
+        "credito": "Maria Oliveira",
+        "legenda": "Lago cristalino ao pôr do sol"
+      }
+    ]
+  },
+  {
+    "titulo": "Arquitetura Histórica",
+    "texto": "Explorando construções históricas ao redor do mundo.",
+    "imagem": "arquitetura_capa.jpg",
+    "dataPublicacao": "2025-06-01T12:30:00Z",
+    "tags": "arquitetura, história, cultura",
+    "link": "https://exemplo.com/galeria/arquitetura-historica",
+    "ativo": true,
+    "fotos": [
+      {
+        "thumb": "fotos/arquitetura/thumbs/castelo.jpg",
+        "thumbnail": "fotos/arquitetura/thumbnails/castelo.jpg",
+        "credito": "Ana Costa",
+        "legenda": "Castelo medieval europeu"
+      },
+      {
+        "thumb": "fotos/arquitetura/thumbs/templo.jpg",
+        "thumbnail": "fotos/arquitetura/thumbnails/templo.jpg",
+        "credito": "Carlos Mendes",
+        "legenda": "Templo antigo preservado na Ásia"
+      },
+      {
+        "thumb": "fotos/arquitetura/thumbs/catedral.jpg",
+        "thumbnail": "fotos/arquitetura/thumbnails/catedral.jpg",
+        "credito": "Fernanda Rocha",
+        "legenda": "Catedral gótica do século XIV"
+      }
+    ]
+  }
+]
+

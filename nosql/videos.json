@@ -1,0 +1,36 @@
+[
+  {
+    "titulo": "Introdução ao MongoDB",
+    "texto": "Este é um artigo introdutório sobre MongoDB.",
+    "imagem": "mongodb_intro.png",
+    "duracao": "5min",
+    "link": "https://exemplo.com/mongodb-introducao",
+    "url": "/artigos/mongodb-introducao",
+    "dataPublicacao": "2025-06-01T10:00:00Z",
+    "tags": "MongoDB, Banco de Dados, NoSQL",
+    "ativo": true
+  },
+  {
+    "titulo": "Como usar Mongoose",
+    "texto": "Aprenda a integrar MongoDB com Node.js usando Mongoose.",
+    "imagem": "mongoose_tutorial.png",
+    "duracao": "7min",
+    "link": "https://exemplo.com/mongoose-tutorial",
+    "url": "/artigos/mongoose-tutorial",
+    "dataPublicacao": "2025-06-05T14:30:00Z",
+    "tags": "Node.js, MongoDB, Mongoose",
+    "ativo": true
+  },
+  {
+    "titulo": "Consultas Avançadas no MongoDB",
+    "texto": "Explore técnicas avançadas de consulta em MongoDB.",
+    "imagem": "consultas_avancadas.png",
+    "duracao": "10min",
+    "link": "https://exemplo.com/consultas-avancadas",
+    "url": "/artigos/consultas-avancadas",
+    "dataPublicacao": "2025-06-08T09:15:00Z",
+    "tags": "MongoDB, Consultas, Avançado",
+    "ativo": false
+  }
+]
+
