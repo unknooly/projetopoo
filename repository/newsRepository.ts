@@ -14,4 +14,3 @@ const NewsSchema=new mongoose.Schema<News>({
 })
 
 export const NewsRepository=mongoose.model<News>("news",NewsSchema)
-

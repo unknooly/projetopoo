@@ -5,9 +5,10 @@ import { Document } from "mongoose"
  * @type titulo {String} título
  * @type texto {String} texto ou descrição
  * @type imagem {String} image default ou avatar
- * @type dataPublicacao {String} data de publicação
+ * @type dataPublicacao {Date} data de publicação
  * @type tags {String} tags relacionada a model
  * @type link {String} link do conteúdo
+ * @type ativo {Boolen} status
  */
 
 export abstract class Core extends Document{

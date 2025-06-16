@@ -1,19 +1,10 @@
 import { Request,Response } from "express";
-import { VideosService } from "../services/videosService";
 import { injectable, inject } from "tsyringe"
 import { IVideosService } from "../contracts/iVideosService";
 
 @injectable()
 export class VideosController{
     constructor(@inject("IVideosService") private _service:IVideosService){}
-}
-
-class VideosController{
-    private _service:VideosService
-
-    constructor(){
-        this._service=new VideosService()
-    }
 
     async get(request:Request,response:Response){
         try{
@@ -36,6 +27,3 @@ class VideosController{
         }
     }
 }
-
-// export default new VideosController()
-

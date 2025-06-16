@@ -13,8 +13,7 @@ export class GaleriaService implements IGaleriaService{
         let result=new Result<Galeria>()
         result.Page=page
         result.Qtd=qtd
-        // linha abaixo original: result.Total=await GaleriaRepository.countDocuments({})
-        result.Total=await GaleriaRepository.length
+        result.Total=await GaleriaRepository.count({})
         result.Data=await GaleriaRepository.find({}).skip((page*qtd)-qtd).limit(qtd)
         return result
     }

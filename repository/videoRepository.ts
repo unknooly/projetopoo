@@ -14,4 +14,3 @@ const VideosSchema=new mongoose.Schema<Videos>({
 })
 
 export const VideosRepository=mongoose.model<Videos>("videos",VideosSchema)
-

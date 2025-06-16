@@ -6,7 +6,4 @@ import { IService } from "./iService";
  * @summary esse contrto implementa a interface IService passando a model de Videos
  */
 
-export interface IVideosService extends IService<Videos>{
-
-}
-
+export interface IVideosService extends IService<Videos>{}

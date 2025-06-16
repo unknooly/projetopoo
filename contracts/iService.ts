@@ -20,4 +20,3 @@ export interface IService<T>{
      */
     getAll(page:number,qtd:number):Promise<Result<T>>
 }
-

@@ -13,8 +13,7 @@ export class NewsService implements INewsService{
         let result=new Result<News>()
         result.Page=page
         result.Qtd=qtd
-        // linha abaixo original: await NewsRepository.count({})
-        result.Total=await NewsRepository.length
+        result.Total=await NewsRepository.count({})
         result.Data=await NewsRepository.find({}).skip((page*qtd)-qtd).limit(qtd)
         return result
     }

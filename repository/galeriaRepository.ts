@@ -11,4 +11,3 @@ const GaleriaSchema=new mongoose.Schema<Galeria>({
 })
 
 export const GaleriaRepository=mongoose.model<Galeria>("galeria",GaleriaSchema)
-

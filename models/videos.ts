@@ -10,4 +10,3 @@ export class Videos extends Core{
     url:String
     duracao:String
 }
-

@@ -12,4 +12,3 @@ export class Fotos{
     credito:String
     legenda:String
 }
-

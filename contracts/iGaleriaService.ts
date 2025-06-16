@@ -6,7 +6,4 @@ import { IService } from "./iService";
  * @summary esse contrato implementa a interface IService passando a model de Galeria
  */
 
-export interface IGaleriaService extends IService<Galeria>{
-    
-}
-
+export interface IGaleriaService extends IService<Galeria>{}
