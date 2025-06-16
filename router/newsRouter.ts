@@ -14,5 +14,4 @@ news.route("/api/v1/news/:id").get((req:Request,res:Response)=>{
     return news.getById(req,res)
 })
 
-
 export default newsRouter
