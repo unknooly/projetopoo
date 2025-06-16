@@ -1,5 +1,5 @@
-import { NewsService } from "../services/newsService";
 import { Request,Response } from "express";
+import { NewsService } from "../services/newsService";
 import { injectable, inject } from "tsyringe"
 import { INewsService } from "../contracts/iNewsServices";
 
