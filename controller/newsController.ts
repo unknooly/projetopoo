@@ -1,5 +1,12 @@
 import { NewsService } from "../services/newsService";
 import { Request,Response } from "express";
+import { injectable, inject } from "tsyringe"
+import { INewsService } from "../contracts/iNewsServices";
+
+@injectable()
+export class VideosController{
+    constructor(@inject("INewsService") private _service:INewsService){}
+}
 
 class NewsController{
     private _service:NewsService
@@ -30,5 +37,5 @@ class NewsController{
     }
 }
 
-export default new NewsController()
+// export default new NewsController()
 
