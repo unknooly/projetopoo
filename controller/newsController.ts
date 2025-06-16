@@ -4,7 +4,7 @@ import { injectable, inject } from "tsyringe"
 import { INewsService } from "../contracts/iNewsServices";
 
 @injectable()
-export class VideosController{
+export class NewsController{ // original:VideosController mas achei estranho
     constructor(@inject("INewsService") private _service:INewsService){}
 }
 

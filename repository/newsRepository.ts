@@ -13,5 +13,5 @@ const NewsSchema=new mongoose.Schema<News>({
     ativo:{type:Boolean}
 })
 
-export const NewsRepository=mongoose.model("news",NewsSchema)
+export const NewsRepository=mongoose.model<News>("news",NewsSchema)
 

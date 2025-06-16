@@ -1,4 +1,4 @@
-import { Request,response,Response } from "express";
+import { Request,Response } from "express";
 import { VideosService } from "../services/videosService";
 import { injectable, inject } from "tsyringe"
 import { IVideosService } from "../contracts/iVideosService";

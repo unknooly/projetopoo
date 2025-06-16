@@ -1,7 +1,7 @@
 import { INewsService } from "../contracts/iNewsServices";
 import { Result } from "../infra/result";
-import { NewsRepository } from "../repository/newsRepository";
 import { News } from "../models/news";
+import { NewsRepository } from "../repository/newsRepository";
 
 export class NewsService implements INewsService{
     async get(_id:string):Promise<News>{
