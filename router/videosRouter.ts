@@ -1,7 +1,7 @@
 import "reflect-metadata"
 import express, { Request, Response } from "express"
 import { container } from "tsyringe"
-import { VideosController } from "../controller/newsController"
+import { VideosController } from "../controller/videosController"
 
 const videosRouter=express()
 const videos=container.resolve(VideosController)
